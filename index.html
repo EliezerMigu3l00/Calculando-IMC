@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Calculando IMC</title>
-    </head>
-    <body>
-        
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculador de IMC</h1>
+    </header>
+    <section>
+        <div>
+            <p>Peso (Kg)
+                <input type="number" name="txtpes" id="txtpes">
+            </p>
+            <p>Altura (cm)
+                <input type="number" name="txtalt" id="txtalt">
+            </p>
+            <p class="verificar">
+                <input type="button" value="Verificar" onclick="verificar()" id="verificar">
+            </p>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>Criado por <a href="https://github.com/EliezerMigu3l00" target="_blank" rel="external">Eliezer Miguel</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
